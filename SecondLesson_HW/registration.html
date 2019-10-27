@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <title>
+            Research HTML _ Second lesson _ HomeWork
+        </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Registration page">
+        <meta name="keywords" content="Registration page">
+    </head>
+
+    <body>
+    
+        <caption><strong>Navigation:</strong></caption>
+        <ul>
+            <li>
+                <a href="../FirstLesson/index.html">Main page</a>
+            </li>
+            <li>
+                <a href="../FirstLesson/first_page.html" target="blank">First page</a>
+            </li>
+            <li>
+                <a href="../FirstLesson/second_page.html" target="blank">Second page</a>
+            </li>
+            <li>
+                <a href="../FirstLesson/third_page.html" target="blank">Third page</a>
+            </li>
+        </ul>
+
+        <form action="#" method="POST" enctype="multipart/form-data">  
+            <fieldset>
+                
+                <legend>Registration form</legend>
+               
+                <p>
+                    <label>*Login: <input type="text" placeholder="Input your login" required minlength="5" maxlength="25"></label>
+                </p>
+                <p>
+                    <label>*Email: <input type="email" placeholder="Input your email" required></label>
+                </p>
+                <p>
+                    <label>*Password: <input type="password" placeholder="Input your password" required minlength="8" maxlength="25"></label>
+                    <label>*Confirm: <input type="password" placeholder="Confirm your password" required minlength="8" maxlength="25"></label>
+                </p>
+                
+                <fieldset>
+                    <legend>Gender</legend>
+                    <label>Male<input type="radio" name="radio"></label>
+                    <label>Female<input type="radio" name="radio"></label>
+                </fieldset>
+                
+                <br>     
+                
+                <input type="submit" value="Submit registration">
+
+            </fieldset>
+        </form>
+
+    </body>
