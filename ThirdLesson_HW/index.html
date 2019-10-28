@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>
+        Research HTML _ Third lesson (Part 2)
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <nav>
+        <ul>
+            <li><button onclick='location.href="index.html"'>Main</button></li>
+            <li><button onclick='location.href="articles.html"'>Articles</button></li>
+        </ul>
+    </nav>
+
+    <form>
+
+        <fieldset>
+            <legend>Gimme your personal data</legend>
+            <label>First Name: <input type="text"></label>
+            <label>Last Name: <input type="text"></label>
+            <p>
+                <label>Age: <input type="number" min="1"></label>
+                <label>Date of Birth: <input type="date"></label>    
+            </p>
+
+            <p>
+                <label>Email: <input type="email"></label>  
+            </p>
+
+            <fieldset class="content_size">
+                <legend>Gender</legend>
+                <label>Male<input type="radio" value="male" name="gender"></label>
+                <label>Female<input type="radio" value="female" name="gender"></label>
+            </fieldset>
+            
+            <fieldset class="content_size">
+                <legend>Education</legend>
+                <label>Associate degree<input type="checkbox" name="education[]"></label>
+                <label>Bachelor's degree<input type="checkbox" name="education[]"></label>
+                <p>
+                    <label>Master's degree<input type="checkbox" name="education[]"></label>
+                    <label>Doctoral degree<input type="checkbox" name="education[]"></label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your photo</legend>
+                <input type="file" accept="image/*" size="10" class="input_photo">
+            </fieldset>
+
+
+        </fieldset>
+
+        <p><button class="big_button">Send information</button></p>
+        
+    </form>
+
+
+</body>
+
+</html>

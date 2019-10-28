@@ -1,0 +1,48 @@
+body {
+    background-image: url(../images/img_bckgrd.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: darkkhaki;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+.article_text, h1, h2, .crimson_button {
+    color: crimson;    
+}
+
+.crimson_button {
+    background-color: darkgray;
+}
+
+input {
+    background-color: darkgrey;
+}
+
+button {
+    background-color: grey;
+}
+
+.big_button {
+    height: 50px;
+    border: 5px solid orange;
+    background: bisque;
+    border-radius: 5px;
+}
+
+.input_photo, .Developer_info {
+    color: brown;
+}
+
+.dev_a {
+    color: aquamarine;
+}
+
+* {
+    border-color: darkgoldenrod; 
+}
