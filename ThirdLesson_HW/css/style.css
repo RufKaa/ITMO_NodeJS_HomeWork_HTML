@@ -18,6 +18,13 @@ nav li {
 
 .crimson_button {
     background-color: darkgray;
+    border: 2px darkgoldenrod solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 0px 5px 0px;
 }
 
 input {
