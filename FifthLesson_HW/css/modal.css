@@ -7,11 +7,23 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: rgba(16, 100, 133, 0.5);
+    background-color: #8a7f7e;
+    opacity: 0.9;
 }
 
 .modal form {
     background-color: #665857;
     padding: 10px;
     border: 2px solid black;
+    opacity: 1;
+}
+
+.a-button {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: azure;
+    width: 50px;
+    text-align: center;
+    height: 23px;
 }

@@ -5,6 +5,10 @@ body {
     font-family: 'PT Serif', serif;
 }
 
+h4 {
+    text-align: center;
+    margin: 0px;
+}
 .container {
     max-width: 800px;
     margin: 0 auto;
