@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Modal form</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header flex">
+            <div class="logo flex-grow-1">
+                <a href="#"><img src="img/logo_small.png" alt="DD"></a>
+            </div>
+            <nav class="menu flex flex-grow-2 flex-align-evenly">
+                <ul class="flex">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Submenu</a>
+                        <ul class="submenu">
+                            <li><a href="#">DD</a></li>
+                            <li><a href="#">DS</a></li>
+                            <li><a href="#">BT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="login" class="modal">
+        <div>
+            <form>
+                <span>Login</span>
+                <p>
+                    <label>Email:<input type="email" required></label>  
+                </p>
+                <p>
+                    <label>Password:<input type="password" required minlength="5" maxlength="15"></label>
+                </p>
+                <p>
+                    <input type="submit" value="Login">
+                    <a href="#">Close</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
