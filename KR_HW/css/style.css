@@ -1,0 +1,116 @@
+@import url("./slider.css");
+
+body {
+    background-image: url(../images/img_bckgrd.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: darkkhaki;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    font-size: 20pt;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header header";
+    grid-template-columns: 1fr 7fr;
+    grid-gap: 5px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+header {
+    grid-area: header;
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.9);
+    grid-template-columns: 1fr 7fr;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 70px;
+    z-index: 2;
+    padding-left: 5px;
+    justify-items: normal;
+}
+
+header ul {
+    padding: 0px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+header li {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: hover 0.5s linear 0.1s;
+}
+
+header li:hover {
+    background: radial-gradient(grey, rgba(0, 0, 0, 0.1), rgba(100, 7, 7, 0.1));
+    transition: all 0.5s linear;
+}
+
+
+header a {
+    color: hsla(0, 0%, 81%, 0.801);
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+#logo {
+    background-image: url(../images/logo_ruf_small.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.article_text, h1, h2, .crimson_button {
+    color: crimson;    
+}
+
+.crimson_button {
+    background-color: darkgray;
+    border: 2px darkgoldenrod solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 0px 5px 0px;
+}
+
+input {
+    background-color: darkgrey;
+}
+
+button {
+    background-color: grey;
+}
+
+.big_button {
+    height: 50px;
+    border: 5px solid orange;
+    background: bisque;
+    border-radius: 5px;
+}
+
+.input_photo, .Developer_info {
+    color: brown;
+}
