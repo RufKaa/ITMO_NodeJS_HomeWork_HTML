@@ -1,4 +1,5 @@
 @import url("./slider.css");
+@import url("./modal.css");
 
 body {
     background-image: url(../images/img_bckgrd.jpg);
@@ -128,10 +129,11 @@ li {
     border-radius: 5px;
     box-shadow: 20px;
     height: 40px;
-    width: 200px;
+    /*width: 200px;*/
     text-align: center;
     display: inline-block;
     padding: 5px 0px 5px 0px;
+    padding: 5px;
     font-size: 0.7em;
 }
 
@@ -162,4 +164,8 @@ h1 {
 .content-body {
     display: grid;
     justify-items: center;
+}
+
+#login:target {
+    display: flex;
 }

@@ -23,108 +23,125 @@
             <ul class="nav-menu">
                 <li class="nav-menu__item"><a href="index.html">Main</a></li>
                 <li class="nav-menu__item"><a href="articles.html">Articles</a></li>
-                <li class="nav-menu__item"><a href="#">Login</a></li>
+                <li class="nav-menu__item"><a href="#login">Login</a></li>
             </ul>
 
         </header>
     </div>>
 
+    <div id="login" class="modal">
+        <div>
+            <form>
+                <h4>Login</h4>
+                <p>
+                    <label>Email:<input type="email" required></label>
+                </p>
+                <p>
+                    <label>Password:<input type="password" required minlength="5" maxlength="15"></label>
+                </p>
+                <p>
+                    <button class="crimson_button" type="submit">Login</button>
+                    <button class="crimson_button" onclick='location.href="#"'>Close</button>
+                </p>
+            </form>
+        </div>
+    </div>
 
     <h1>Some hard things</h1>
     <div class='content-body'>
-    <div class="container-articles">
+        <div class="container-articles">
 
-        <h2 class="content-header">Dark souls</h2>
+            <h2 class="content-header">Dark souls</h2>
 
-        <div class="content-box">
+            <div class="content-box">
 
-            <div class="developer">
-                <span class="Developer_info">Developer: <a href="https://www.fromsoftware.jp/jp/" target="blank" class="dev_a">From
-                        Software</a>
-                    | <label>Release date: <time>2011-09-22</time></label></span>
+                <div class="developer">
+                    <span class="Developer_info">Developer: <a href="https://www.fromsoftware.jp/jp/" target="blank"
+                            class="dev_a">From
+                            Software</a>
+                        | <label>Release date: <time>2011-09-22</time></label></span>
+                </div>
+
+                <div class="image">
+                    <img src="images/DS.jpeg" alt="Wait for DS" title="YOU DIED">
+                </div>
+
+                <div class="content_text">
+                    <span class="article_text">Компьютерная игра в жанре action/RPG с открытым миром, разработанная
+                        японской компанией From Software и выпущенная в 2011 году для PlayStation 3 и Xbox 360.</span>
+                </div>
+
+                <div class="read-more">
+                    <button class="crimson_button" onclick='location.href="https://ru.wikipedia.org/wiki/Dark_Souls"'>Read
+                        more...</button>
+                </div>
+
             </div>
+        </div>
 
-            <div class="image">
-                <img src="images/DS.jpeg" alt="Wait for DS" title="YOU DIED">
+        <div class="container-articles">
+
+            <h2 class="content-header">Darkest dungeon</h2>
+
+            <div class="content-box">
+
+                <div class="developer">
+                    <span class="Developer_info">Developer: <a href="http://www.redhookgames.com/" target="blank" class="dev_a">Red
+                            Hook Studios</a>
+                        | <label>Release date: <time>2016-01-19</time></label></span>
+                </div>
+
+                <div class="image">
+                    <img src="images/DD.jpeg" alt="Wait for DD" title="Confidence? - MADNESS!">
+                </div>
+
+                <div class="content_text">
+                    <span class="article_text">Компьютерная ролевая игра с roguelike-элементами, разработанная и
+                        выпущенная
+                        независимой канадской студией Red Hook Studios.</span>
+                </div>
+
+                <div class="read-more">
+                    <button class="crimson_button" onclick='location.href="https://ru.wikipedia.org/wiki/Darkest_Dungeon"'>Read
+                        more...</button>
+                </div>
+
             </div>
+        </div>
 
-            <div class="content_text">
-                <span class="article_text">Компьютерная игра в жанре action/RPG с открытым миром, разработанная
-                    японской компанией From Software и выпущенная в 2011 году для PlayStation 3 и Xbox 360.</span>
+
+
+        <div class="container-articles">
+
+            <h2 class="content-header">Battletoads</h2>
+
+            <div class="content-box">
+
+                <div class="developer">
+                    <span class="Developer_info">Developer: <a href="https://www.rare.co.uk/" target="blank" class="dev_a">Rare
+                            Ltd</a>
+                        | <label>Release date: <time>1991-06-01</time></label></span></p>
+                </div>
+
+                <div class="image">
+                    <img src="images/Battletoadsrash.jpg" alt="Wait for BT" height="450" width="650" title="Проклятые мотоциклы...">
+                </div>
+
+                <div class="content_text">
+                    <span class="article_text">Видеоигра, разработанная компанией Rare, и созданная как соперник серии
+                        игр
+                        о
+                        Черепашках-ниндзя. Это первая часть серии Battletoads, которая была издана 1 июня 1991 года для
+                        приставки
+                        Nintendo Entertainment System.</span>
+                </div>
+
+                <div class="read-more">
+                    <button class="crimson_button" onclick='location.href="http://lurkmore.to/Battletoads"'>Вперед, на
+                        лурк!</button>
+                </div>
+
             </div>
-
-            <div class="read-more">
-                <a href="https://ru.wikipedia.org/wiki/Dark_Souls" class="crimson_button">Read more...</a>
-            </div>
-
         </div>
     </div>
-
-    <div class="container-articles">
-
-        <h2 class="content-header">Darkest dungeon</h2>
-
-        <div class="content-box">
-
-            <div class="developer">
-                <span class="Developer_info">Developer: <a href="http://www.redhookgames.com/" target="blank" class="dev_a">Red
-                        Hook Studios</a>
-                    | <label>Release date: <time>2016-01-19</time></label></span>
-            </div>
-
-            <div class="image">
-                <img src="images/DD.jpeg" alt="Wait for DD" title="Confidence? - MADNESS!">
-            </div>
-
-            <div class="content_text">
-                <span class="article_text">Компьютерная ролевая игра с roguelike-элементами, разработанная и выпущенная
-                    независимой канадской студией Red Hook Studios.</span>
-            </div>
-
-            <div class="read-more">
-                <button class="crimson_button" onclick='location.href="https://ru.wikipedia.org/wiki/Darkest_Dungeon"'>Read more...</button>
-                <!--
-                <a href="https://ru.wikipedia.org/wiki/Darkest_Dungeon" class="crimson_button">Read more...</a>
-                -->
-            </div>
-
-        </div>
-    </div>
-
-
-
-    <div class="container-articles">
-
-        <h2 class="content-header">Battletoads</h2>
-
-        <div class="content-box">
-
-            <div class="developer">
-                <span class="Developer_info">Developer: <a href="https://www.rare.co.uk/" target="blank" class="dev_a">Rare
-                        Ltd</a>
-                    | <label>Release date: <time>1991-06-01</time></label></span></p>
-            </div>
-
-            <div class="image">
-                <img src="images/Battletoadsrash.jpg" alt="Wait for BT" height="450" width="650" title="Проклятые мотоциклы...">
-            </div>
-
-            <div class="content_text">
-                <span class="article_text">Видеоигра, разработанная компанией Rare, и созданная как соперник серии игр
-                    о
-                    Черепашках-ниндзя. Это первая часть серии Battletoads, которая была издана 1 июня 1991 года для
-                    приставки
-                    Nintendo Entertainment System.</span>
-            </div>
-
-            <div class="read-more">
-                <button class="crimson_button" onclick='location.href="http://lurkmore.to/Battletoads"'>Вперед, на лурк!</button>
-                <!--
-                <a href="http://lurkmore.to/Battletoads" class="crimson_button">Read more...</a>
-                -->
-            </div>
-
-        </div>
-    </div>
-</div>
 </body>
